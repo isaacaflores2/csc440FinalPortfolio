@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageProgramFlow", "csc440FinalPortfolio\ManageProgramFlow.csproj", "{D7D60229-9290-464D-9DCD-33A660F3874F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateAndUseTypes", "CreateAndUseTypes\CreateAndUseTypes.csproj", "{EA701779-9468-4DEB-9B78-E11BEF002C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAndUseTypes", "CreateAndUseTypes\CreateAndUseTypes.csproj", "{EA701779-9468-4DEB-9B78-E11BEF002C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebugApplicationsAndSecurity", "DebugApplicationsAndSecurity\DebugApplicationsAndSecurity.csproj", "{C3DAA4D9-20D6-4683-AC94-4CA6E9184082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugApplicationsAndSecurity", "DebugApplicationsAndSecurity\DebugApplicationsAndSecurity.csproj", "{C3DAA4D9-20D6-4683-AC94-4CA6E9184082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementDataAccess", "ImplementDataAccess\ImplementDataAccess.csproj", "{10983821-CE6A-4A44-8145-C6E82B4DB995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementDataAccess", "ImplementDataAccess\ImplementDataAccess.csproj", "{10983821-CE6A-4A44-8145-C6E82B4DB995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageProgramFlow", "ManageProgramFlow\ManageProgramFlow.csproj", "{2935ACBA-EF72-4915-A43D-F3D8ED2C877F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7D60229-9290-464D-9DCD-33A660F3874F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7D60229-9290-464D-9DCD-33A660F3874F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7D60229-9290-464D-9DCD-33A660F3874F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7D60229-9290-464D-9DCD-33A660F3874F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA701779-9468-4DEB-9B78-E11BEF002C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA701779-9468-4DEB-9B78-E11BEF002C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA701779-9468-4DEB-9B78-E11BEF002C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{10983821-CE6A-4A44-8145-C6E82B4DB995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10983821-CE6A-4A44-8145-C6E82B4DB995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10983821-CE6A-4A44-8145-C6E82B4DB995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2935ACBA-EF72-4915-A43D-F3D8ED2C877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2935ACBA-EF72-4915-A43D-F3D8ED2C877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2935ACBA-EF72-4915-A43D-F3D8ED2C877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2935ACBA-EF72-4915-A43D-F3D8ED2C877F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
