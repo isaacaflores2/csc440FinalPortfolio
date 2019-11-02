@@ -15,10 +15,16 @@ namespace csc440FinalPortfolio
             */
 
             //Run: P2: Run task in parallel
+            /*
             ParallelTask.RunOriginalExample();
             ParallelTask.RunModifiedExample(1000);            
             ParallelTask.RunModifiedExample(10000);           
             ParallelTask.RunModifiedExample(100000);
+            */
+
+            //Run: P3: Async and Await example
+            AsyncAwait.RunModifiedExample();
+
         }
     }
 }

@@ -13,7 +13,7 @@ namespace ManageProgramFlow
     {
         //P1: Creating a thread with the Thread class
         //Source: Kort, W. de. (2013). Exam ref 70-483: programming in C#. Redmond, WA: Microsoft Press.
-        //Chapter: 1, Page: 5, Listing 1-2
+        //Chapter: 1, Page: 16, Listing 1-16
 
         #region Original source code
         //This method shows two different ways to execute tasks in parallel
