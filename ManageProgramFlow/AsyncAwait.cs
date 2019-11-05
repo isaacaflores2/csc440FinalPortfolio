@@ -8,9 +8,9 @@ namespace ManageProgramFlow
 {
     public static class AsyncAwait
     {
-        //P1: Creating a thread with the Thread class
+        //P1: Use Async and await operators
         //Source: Kort, W. de. (2013). Exam ref 70-483: programming in C#. Redmond, WA: Microsoft Press.
-        //Chapter: 1, Page: 16, Listing 1-16
+        //Chapter: 1, Page: 18, Listing 1-18
 
         #region Original source code
         //This method calls the DownloadContent function which will run on a seperate thread

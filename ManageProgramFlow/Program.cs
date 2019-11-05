@@ -23,7 +23,14 @@ namespace csc440FinalPortfolio
             */
 
             //Run: P3: Async and Await example
-            AsyncAwait.RunModifiedExample();
+            //AsyncAwait.RunModifiedExample();
+
+            //Run: P4: Delegates example
+            Delegates delegates = new Delegates();
+            delegates.RunOriginalExample();
+            Console.WriteLine("");
+            Console.WriteLine("Modified Delegate example");
+            delegates.RunModifiedExample();
 
         }
     }

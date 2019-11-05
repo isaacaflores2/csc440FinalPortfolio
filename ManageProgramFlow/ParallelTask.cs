@@ -11,7 +11,7 @@ namespace ManageProgramFlow
 {
     public static class ParallelTask
     {
-        //P1: Creating a thread with the Thread class
+        //P1: Use the Parallel class
         //Source: Kort, W. de. (2013). Exam ref 70-483: programming in C#. Redmond, WA: Microsoft Press.
         //Chapter: 1, Page: 16, Listing 1-16
 
