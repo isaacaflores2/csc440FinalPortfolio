@@ -6,7 +6,7 @@ namespace ManageProgramFlow
 {
     public class Delegates
     {
-        //P1: Create and use delegates
+        //P4: Create and use delegates
         //Source: Kort, W. de. (2013). Exam ref 70-483: programming in C#. Redmond, WA: Microsoft Press.
         //Chapter: 1, Page: 57, Listing 1-75
 
