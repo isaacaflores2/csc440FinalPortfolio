@@ -6,7 +6,10 @@ namespace CreateAndUseTypes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Run: P5: Enumeratings Strings
+            Strings.RunOriginalExample();
+            Console.WriteLine("Modified String example");
+            Strings.RunModifiedExample();
         }
     }
 }
