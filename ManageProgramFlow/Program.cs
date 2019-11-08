@@ -35,10 +35,18 @@ namespace csc440FinalPortfolio
             */
 
             //Run: P6: Run Events example
+            /*
             Events.RunOriginalExample();
             Console.WriteLine("");
             Console.WriteLine("Modified Event example");
             Events.RunModifiedExample();
+            */
+
+            //Run: P7: Using Concurrent Queue
+            ConcurrentQueue.RunOriginalExample();
+            Console.WriteLine("");
+            Console.WriteLine("Modified Event example");
+            ConcurrentQueue.RunModifiedExample();
         }
     }
 }
