@@ -11,7 +11,7 @@ namespace CreateAndUseTypes
         //Chapter: 2, Page: 110, Listing 2-24
 
         #region Original source code
-        //This example shows how to use the basic Enqueue and Dequeue functions of a Concurrent queue 
+        //This example shows how to use the implicit and explicit conversion operator
         public static void RunOriginalExample()
         {
             Money m = new Money(42.42M);
@@ -51,8 +51,6 @@ namespace CreateAndUseTypes
 
         #region Modified code  
 
-
-        //This runs two seperate tasks that use the same queue to calculate the sum of the queue
         public static void RunModifiedExample()
         {
             Account account = new Account("Savings", 42.56M);

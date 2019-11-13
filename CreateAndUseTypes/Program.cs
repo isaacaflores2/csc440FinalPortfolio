@@ -20,8 +20,15 @@ namespace CreateAndUseTypes
             */
 
             //Run P9: Implementing an implicit and explicit conversion operator
+            /*
             ExplicitOperator.RunOriginalExample();
             ExplicitOperator.RunModifiedExample();
+            */
+
+            //Run P10: Instatiating a concrete type that implements an interface
+            ImplementInterface.RunOriginalExample();
+            Console.WriteLine("Modified String example");
+            ImplementInterface.RunModifiedExample();
         }
     }
 }
