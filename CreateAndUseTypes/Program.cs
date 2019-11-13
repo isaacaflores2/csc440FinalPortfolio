@@ -14,8 +14,14 @@ namespace CreateAndUseTypes
             */
 
             //Run P8: Longest Substring Without Repeating Characters
+            /*
             int len = LongestSubString.LengthOfLongestSubstring("jbpnbwwd");
             Console.WriteLine(len);
+            */
+
+            //Run P9: Implementing an implicit and explicit conversion operator
+            ExplicitOperator.RunOriginalExample();
+            ExplicitOperator.RunModifiedExample();
         }
     }
 }
