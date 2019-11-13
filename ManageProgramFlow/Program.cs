@@ -43,10 +43,14 @@ namespace csc440FinalPortfolio
             */
 
             //Run: P7: Using Concurrent Queue
+            /*
             ConcurrentQueue.RunOriginalExample();
             Console.WriteLine("");
             Console.WriteLine("Modified Event example");
             ConcurrentQueue.RunModifiedExample();
+            */
+
+                        
         }
     }
 }
