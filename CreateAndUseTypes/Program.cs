@@ -28,7 +28,7 @@ namespace CreateAndUseTypes
             //Run P10: Instatiating a concrete type that implements an interface
             /*
             ImplementInterface.RunOriginalExample();
-            Console.WriteLine("Modified String example");
+            Console.WriteLine("Modified example");
             ImplementInterface.RunModifiedExample();
             */
 
@@ -39,9 +39,16 @@ namespace CreateAndUseTypes
             */
 
             //Run P12
+            /*
             int[] nums = new int[] { 3, 2, 4 };
             var result = TwoSumProblem.TwoSum(nums, 6);
             Console.WriteLine($"{nums[0]} : {nums[1]}");
+            */
+
+            //P13: Overriding a virtual method
+            OverrideAndNewMethod.RunOriginalExample();
+            Console.WriteLine("Modified example");
+            OverrideAndNewMethod.RunModifiedExample();
         }
     }
 }
