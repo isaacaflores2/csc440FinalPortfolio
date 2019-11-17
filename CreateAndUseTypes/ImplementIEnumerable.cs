@@ -18,7 +18,7 @@ namespace CreateAndUseTypes
            
         }
 
-        class Person
+        public class Person
         {
             public Person(String firstName, string lastName)
             {

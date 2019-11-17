@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CreateAndUseTypes
@@ -14,25 +15,20 @@ namespace CreateAndUseTypes
             {
                 return new int[] {-1,-1};
             }
-            
 
-            //This changes the orignal indexes
-            //Array.Sort(nums);
+            var numsDict = new Dictionary<int, int>();
 
-            for(int i=0; i<nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
-                if(i>= target)                
-                    break;               
-                
-                for(int j =1; j <nums.Length; j++)
+                int requiredKey = target - nums[i];
+                if (numsDict.ContainsKey(requiredKey))
                 {
-                    if (j >= target)
-                        break;
-
-                    if (nums[i] + nums[j] == target)
-                        return new int[] { i, j };
+                    int requiredIndex = numsDict[requiredKey];
+                    return new int[] { i, requiredIndex };
                 }
+                numsDict[nums[i]] =  i;
             }
+           
             return new int[] { -1, -1 };
         }
     }
