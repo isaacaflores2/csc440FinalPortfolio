@@ -9,7 +9,7 @@ namespace CreateAndUseTypes
     {
         //P14: Implementing IEnumerable<T> 
         //Source: Kort, W. de. (2013). Exam ref 70-483: programming in C#. Redmond, WA: Microsoft Press.
-        //Chapter: 2, Page: 129, Listing 2-47
+        //Chapter: 2, Page: 135, Listing 2-56
 
         #region Original source code
         //This example shows how the IEnuerable interface allows you to use a foreach loop

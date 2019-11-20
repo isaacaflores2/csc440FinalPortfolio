@@ -52,9 +52,17 @@ namespace CreateAndUseTypes
             OverrideAndNewMethod.RunModifiedExample();
             */
             //P14: Implement IEnumerable
+            /*
             ImplementIEnumerable.RunOriginalExample();
             Console.WriteLine("Modified example");
             ImplementIEnumerable.RunModifiedExample();
+            */
+
+
+            //P15: Func<T,TResult> Delegate
+            Lambda_Func.RunOriginalExample();
+            Console.WriteLine("Modified example");
+            Lambda_Func.RunModifiedExample();
         }
     }
 }
