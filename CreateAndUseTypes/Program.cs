@@ -60,9 +60,16 @@ namespace CreateAndUseTypes
 
 
             //P15: Func<T,TResult> Delegate
+            /*
             Lambda_Func.RunOriginalExample();
             Console.WriteLine("Modified example");
             Lambda_Func.RunModifiedExample();
+            */
+
+            //P16: Statement lambdas
+            Lambda_Action.RunOriginalExample();
+            Console.WriteLine("Modified example");
+            Lambda_Action.RunModifiedExample();
         }
     }
 }
