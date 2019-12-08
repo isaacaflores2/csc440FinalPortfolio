@@ -7,7 +7,7 @@ namespace CreateAndUseTypes
 {
     class TwoSumProblem
     {
-        //P12: Reverse Words in a String II
+        //P12: TwoSum problem
         //Source: https://leetcode.com
         public static int[] TwoSum(int[] nums, int target)
         {            

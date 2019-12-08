@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreateAndUseTypes
 {
-    //P15: Find the minimum number of conference rooms required.
+    //P18: Find the minimum number of conference rooms required.
     //Source: https://leetcode.com
     class MeetingRoomsII
     {
