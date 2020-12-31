@@ -13,7 +13,7 @@ namespace ManageProgramFlow
 
         #region Original source code
         //This method creates a new instance of a thread by passing the Thread constructor an instance of a ThreadStart delegate. 
-        //The program then runs the thread, does some example work, and waits for the thread to finish by calling the jion method. 
+        //The program then runs the thread, does some example work, and waits for the thread to finish by calling the join method. 
         public static void RunOriginalExample()
         {
             Thread t = new Thread(new ThreadStart(ThreadMethod));
